@@ -1,0 +1,26 @@
+{
+	"name": "tdc/paypal-rest-php",
+	"description": "Fork of the deprecated PayPal-PHP-SDK v2.0-beta, with updates for newer APIs",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Tino Didriksen",
+			"email": "mail@tinodidriksen.com",
+			"homepage": "https://tinodidriksen.com/",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/TinoDidriksen/PayPal-REST-PHP/issues"
+	},
+	"require": {
+		"php": ">= 7.0.0",
+		"paypal/paypalhttp": "^1.0.1"
+	},
+	"autoload": {
+		"psr-0": {
+			"PayPal": "lib/"
+		}
+	}
+}
